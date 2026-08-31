@@ -55,7 +55,7 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 700;
 }
 
@@ -81,15 +81,34 @@ body {
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
+    text-align: center;
 }
 
-.descricao__texto {
+.descricao__primeiro__texto {
     color: var(--cinza-secundario);
+    text-align: justify;
+    font-size: 22px;
+    word-spacing: 1.5px;
+}
+
+.descricao__segundo__texto {
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-size: 26px;
+}
+
+.descricao__terceiro__texto {
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-size: 25px;
+    word-spacing: -2.7px;
 }
 
 .secundario__botao {
-    display: inline-block;
+    display: block;
     margin-top: 1em;
+    width: fit-content;
+    margin: 1em auto 0;
 }
 
 .container__descricao {
@@ -134,7 +153,14 @@ body {
     margin-left: 1em;
 }
 
-.rodape__texto {
+.rodape__primeiro__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.rodape__segundo__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
@@ -169,6 +195,42 @@ body {
         background-image: none;
     }
 
+    .container__titulo {
+        font-size: 22px;
+        justify-content: center;
+    }
+
+    .container__aviso {
+        font-size: 9px;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__primeiro__texto {
+        font-size: 19px;
+        text-align: center;
+        word-spacing: -0.3px;
+    }
+
+    .descricao__segundo__texto {
+        font-size: 19px;
+        text-align: center;
+        word-spacing: -0.3px;
+    }
+
+    .descricao__terceiro__texto {
+        font-size: 20px;
+        text-align: center;
+        word-spacing: -0.3px;
+    }
+
+    .dispositivos_titulo {
+        font-size: 32px;
+        align-items: justify;
+    }
+
     .container__imagem {
         width: 50vw;
     }
@@ -192,5 +254,15 @@ body {
 
     .rodape__lista {
         display: block;
+    }
+
+    .rodape__primeiro__texto {
+        font-size: 11px;
+        align-items: justify;
+    }
+
+    .rodape__segundo__texto {
+        font-size: 9px;
+        align-items: justify;
     }
 }
