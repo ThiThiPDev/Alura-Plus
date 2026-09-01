@@ -259,6 +259,7 @@ body {
 
     .rodape__lista {
         display: block;
+        margin-bottom: 2em;
     }
 
     .rodape__primeiro__texto {
