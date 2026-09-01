@@ -249,7 +249,8 @@ body {
     }
 
     .secundario__imagem {
-        width: 50vw;
+        width: 80%;
+        order: -1;
     }
 
     .dispositivos__lista {
