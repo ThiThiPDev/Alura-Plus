@@ -106,7 +106,6 @@ body {
 
 .secundario__botao {
     display: block;
-    margin-top: 1em;
     width: fit-content;
     margin: 1em auto 0;
 }
